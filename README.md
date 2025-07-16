@@ -1,12 +1,59 @@
-# React + Vite
+🍕 Flavaro - Food Ordering Web App
+Explore Taste. Book Delight.
+Flavaro is a modern food ordering platform built with performance, user-friendliness, and stunning UI in mind. Users can explore menus by category, view ratings, and place orders — all through a clean and interactive interface. <br> <br> <br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+| Frontend | State Management | Styling      | Routing          |
+| -------- | ---------------- | ------------ | ---------------- |
+| React    | Redux Toolkit    | Tailwind CSS | React Router DOM |
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
+✅ Browse foods by category (All, Lunch, Breakfast, Dinner, Snacks)
 
-## Expanding the ESLint configuration
+✅ Beautifully designed Food Cards with:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Image, Name, Price, Description, Star Rating
+
+“Add to Cart” with Redux state update
+
+✅ Protected Route for order success screen
+
+✅ Responsive & Fast UI with smooth animations
+
+✅ Toast notifications on adding items (via handleToast)
+
+✅ Centralized state using Redux Toolkit <br><br><br>
+
+flavaro/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── FoodCard.jsx
+│   │   └── ProtectedRoute.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Success.jsx
+│   │   └── Error.jsx
+│   ├── redux/
+│   │   └── slices/CartSlice.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+└── README.md
+<br><br><br><br>
+
+1. Clone the Repository
+git clone https://github.com/theajeet/flavaro.git
+cd flavaro
+2. Install Dependencies
+   npm install
+3. Start the Development Server
+   npm run dev
+
+
+🧑‍💻 Author
+Ajeet Kuntal
+
+📃 License
+This project is licensed under the MIT License.
